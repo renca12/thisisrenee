@@ -88,12 +88,14 @@ section{
     align-items: center;
     justify-content: center;
     gap: 10rem;
+    padding: 5rem 12%;
 }
 
 .home-content{
     display: flex;
+    flex: 1 1 40%;
     flex-direction: column;
-    align-items: baseline;
+    align-items: flex-start;
     text-align: left;
     justify-content: center;
     margin-top: 3rem;
@@ -131,10 +133,12 @@ span{
 }
 
 .home-img img{
-    position:static; 
+    flex: 1 1 60%;
+    position: relative; 
+    align-items: center;
     top: 3rem;
-    width: 50vw;
-    height: 25vw;
+    width: 100%;
+    height: auto;
     border-radius: 25% / 50%;
     box-shadow: 0 0 5vw var(--main-color);
     cursor: pointer;
