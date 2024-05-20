@@ -452,7 +452,7 @@ span{
 /* CONTACT ME CSS */
 
 .contact {
-    padding: 20px 0; /* Adjust as needed */
+    padding: 100px 15px;
     background-color: linear-gradient(--bg-color, #000000); /* Example background */
 }
 
