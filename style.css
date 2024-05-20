@@ -87,7 +87,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15rem;
+    gap: 10rem;
 }
 
 .home-content{
@@ -97,7 +97,6 @@ section{
     text-align: left;
     justify-content: center;
     margin-top: 3rem;
-    width: 30%;
 }
 span{
     color: var(--main-color);
@@ -126,7 +125,7 @@ span{
 
 .home-img{
     width: 50vw;
-    height: calc(width / 2);
+    height: 25vw;
     border-radius: 25% / 50%;
     margin-right: 1rem;
 }
@@ -250,13 +249,13 @@ span{
         content: "Developer";
     }
     40.1%, 60%{
-        content: "Mathematics Fan";
+        content: "Student";
     }
     60.1%, 80% {
-        content: "Life-Long Learner";
+        content: "Learner";
     }
     80.1%, 100%{
-        content: "Problem Solver";
+        content: "Solver";
     }
 
 }
