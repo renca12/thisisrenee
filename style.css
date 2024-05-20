@@ -87,7 +87,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10rem;
+    gap: 15rem;
 }
 
 .home-content{
@@ -97,6 +97,7 @@ section{
     text-align: left;
     justify-content: center;
     margin-top: 3rem;
+    width: 30%;
 }
 span{
     color: var(--main-color);
@@ -125,7 +126,7 @@ span{
 
 .home-img{
     width: 50vw;
-    height: 25vw;
+    height: calc(width / 2);
     border-radius: 25% / 50%;
     margin-right: 1rem;
 }
