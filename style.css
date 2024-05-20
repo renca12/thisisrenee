@@ -219,7 +219,7 @@ span{
 .text-animation{
     font-size: 34px;
     font-weight: 600;
-    min-width: 280px;
+    min-width: 400px;
 }
 .text-animation span{
     position: relative;
@@ -457,7 +457,7 @@ span{
 
 .contact {
     padding: 100px;
-    background-color: #000000; /* Example background */
+    background-color: #000000; 
 }
 
 #email-placeholder {
